@@ -1,0 +1,45 @@
+h2{
+    font-family: 'Black Ops One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Iso', cursive;
+ 
+}
+*{
+    margin:0.5rem;
+    padding:0;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+nav{
+    border:2px solid black;
+    max-width:600px;
+    border-radius: 2rem;
+    margin:0 auto 1.5rem;
+    line-height:6rem;
+    font-size:3rem;
+}
+h2{
+    padding:1rem;
+    background-color: aquamarine;
+    border-radius: 2rem 2rem 0 0;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    border-top: 1px solid olivedrab;
+}
+li a{
+    display:block;
+}
+li a,li a:visited{
+    color:aqua;
+    text-decoration:none;
+}
+li a:hover,li a:focus{
+    background-color: blueviolet;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
